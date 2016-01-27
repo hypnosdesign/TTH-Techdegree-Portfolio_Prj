@@ -1,0 +1,68 @@
+/*
+TEACHER NOTES
+
+> CSS Selectors
+
+	ID Selector - CSS selector that selects a single element based on its ID attribute.
+
+> CSS Properties
+
+	text-decoration - Primarily used to add or remove underlines from text.
+
+>	CSS Properties
+
+	- max-width - Sets the maximum width of an element. Accepts any CSS length unit.
+	- margin - Sets the space around the exterior four sides of an element. Accepts any CSS length unit.
+	- padding - Sets the space on the interior four sides of an element. Accepts any CSS length unit.
+	Resources
+
+> 	CSS Layout Techniques 
+	
+	- Learn more about CSS layout properties like float, clear, position, and more.
+	link: http://teamtreehouse.com/library/css-layout-techniques;
+
+MOBILE FIRST
+>	Vocabulary
+
+	Mobile First - The technique of creating mobile websites first and then progressively enhancing them to create the desktop version.
+>	CSS Properties
+
+	text-align - Sets the justification of text, similar to a word processor. For example, text can be set to be aligned to the left, right, or center.
+
+	CUSTOMIZING FONT E COLORS
+
+>	Vocabulary
+
+	Hexadecimal - A base-16 number system that uses the letters "A" through "F" to represent the numerals 10 through 15.
+
+>	CSS Selectors
+
+	Pseudo-Class - Dynamic selectors that change based on user interaction with the browser, such as hovering over a link, for example.
+*/
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 4%;
+	background-color: orange;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
