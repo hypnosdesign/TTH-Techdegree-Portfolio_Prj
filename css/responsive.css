@@ -1,0 +1,57 @@
+@media screen and (min-width: 479px) {
+
+	#primary {
+		float: left;
+		width: 50%;
+	}
+
+	#secondary {
+		float:right;
+		width: 40%;
+	}
+
+	#gallery li{
+		max-width: 28.3333%
+	}
+
+	#gallery li:nth-child(3n) {
+		clear: none;
+	}
+
+	.profile-photo {
+		float: left;
+		margin-right: 10%;
+		margin-bottom: 300px;
+	}
+
+
+}
+
+@media screen and (min-width: 660px) {
+
+	header {
+		border-bottom: #599a68 3px solid;
+	}
+
+	nav {
+		float: right;
+		background: none;
+		width: 45%;
+		text-align: right;
+		margin-right: 5%;
+	}
+
+	#logo {
+		float: left;
+		margin-left: 5%;
+		margin-bottom: 10px;
+	}
+
+	#logo h1 {
+		font-size: 1.8em;
+	}
+
+	#logo h2 {
+		font-size: 1.2em;
+	}
+}
