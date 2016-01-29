@@ -169,6 +169,39 @@ footer {
 }
 
 
+
+/************************************
+	PAGINA: CONTATTI
+************************************/
+
+ul.contatti {
+	list-style: none;
+	font-size: .8em;
+	margin: 0;
+	padding: 0;
+}
+
+ul.contatti a{
+	display: block;
+	margin: 0 0 .5em 0;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	min-height: 20px;
+}
+
+ul.contatti li.telefono a {
+	background-image: url('../img/phone.png');
+}
+
+ul.contatti li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+ul.contatti li.email a {
+	background-image: url('../img/mail.png');
+}
+
 /************************************
 	COLOR
 ************************************/
