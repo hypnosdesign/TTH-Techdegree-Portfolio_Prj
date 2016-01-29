@@ -40,19 +40,26 @@ MOBILE FIRST
 	Pseudo-Class - Dynamic selectors that change based on user interaction with the browser, such as hovering over a link, for example.
 */
 
+
+/************************************
+	GENERAL
+************************************/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #999;
+}
+
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 4%;
-	background-color: orange;
+	/*background-color: orange;*/
 }
 
 #logo {
 	text-align: center;
 	margin: 0;
-}
-a {
-	text-decoration: none;
 }
 
 li {
@@ -66,3 +73,85 @@ ul {
 img {
 	max-width: 100%;
 }
+
+/************************************
+	HEADING
+************************************/
+h1 {
+	font-family: "Passion One", cursive;
+	font-size: 1.75em;
+	font-weight: bold;
+	margin: 15px 0;
+	line-height: .8em;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 0.75em;
+	margin: -5 0 0; /* 3 valori indicano: top left-right bottom */
+}
+
+
+/************************************
+	NAVIGATION
+************************************/
+
+nav {
+	margin-top: 20px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+/************************************
+	FOOTER
+************************************/
+
+footer {
+	text-align: center;
+	font-size: .75em;
+	padding: 50px 0;
+	color: #ccc;
+
+}
+
+
+
+/************************************
+	COLOR
+************************************/
+
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+header {
+	background-color: #6ab47b;
+	border-color: #599a68;
+	border-top: #599a68 2px solid ;
+	border-bottom: #599a68 2px solid;
+}
+
+nav {
+	background-color: #599a68;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+h1, h2 {
+	color: #ffffff;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: #6ab47b;
+}
+
