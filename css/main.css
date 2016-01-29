@@ -90,6 +90,10 @@ h2 {
 	margin: -5 0 0; /* 3 valori indicano: top left-right bottom */
 }
 
+h3 {
+	margin: 0 0 1em;
+}
+
 
 /************************************
 	NAVIGATION
@@ -97,10 +101,19 @@ h2 {
 
 nav {
 	margin-top: 20px;
-	padding: 10px 0;
+	padding: 1px 0;
 	text-align: center;
 }
 
+nav li {
+	display: inline-block;;
+}
+ nav li a {
+ 	margin: 0 .5em;
+ 	padding: 0;
+ 	font-style: 'Open Sans', sans-serif;
+ 	font-weight: 800;
+ }
 
 /************************************
 	FOOTER
@@ -112,6 +125,10 @@ footer {
 	padding: 50px 0;
 	color: #ccc;
 	clear: both;
+}
+
+.social-icon {
+	width: 20px;
 }
 
 
@@ -141,6 +158,18 @@ footer {
 
 
 /************************************
+	PAGINA: ABOUT
+************************************/
+
+.profile-photo {
+	border-radius: 100%;
+	max-width: 150px;
+	margin: 2em auto;
+	display: block;
+}
+
+
+/************************************
 	COLOR
 ************************************/
 
@@ -154,6 +183,7 @@ header {
 	border-color: #599a68;
 	border-top: #599a68 2px solid ;
 	border-bottom: #599a68 2px solid;
+	margin: 0 0 20px;
 }
 
 nav {
